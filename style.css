@@ -1,5 +1,5 @@
-body {
-  background-color: rgb(130, 167, 240);
+.home-background-color {
+  background-color: rgb(154, 191, 231);
 }
 
 .navbar {
@@ -7,6 +7,35 @@ body {
   color: aliceblue;
 }
 
-.first-image {
-  height: 80%;
+.responsive-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+h1 {
+  font-family: "Bungee Shade", cursive;
+  color: rgb(4, 19, 32);
+  font-size: 60px;
+  padding-left: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+  color: rgb(248, 248, 248);
+}
+.home-band-img {
+  width: 100%;
+}
+
+.container-home {
+  background-color: #cc36a2;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile {
+    font-size: small;
+  }
 }
