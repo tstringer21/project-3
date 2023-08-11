@@ -37,8 +37,68 @@ h2 {
   padding-left: 20px;
 }
 
+.socials img {
+  width: 20%;
+  padding: 10px;
+}
+
+/* ABOUT */
+
+.about-background-color {
+  background-color: #2bd3de;
+}
+
+.about-container {
+  background-color: #cc36a2;
+}
+
+.about {
+  color: rgb(0, 5, 9);
+  text-align: center;
+}
+
+.about-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.about-text-members {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.about-images {
+  padding-top: 50px;
+  font-size: 12px;
+}
+
+.band {
+  padding: 50px;
+}
+
+.band-about {
+  font-size: 12px;
+}
+
+.band-text {
+  font-size: 30px;
+}
+
 @media screen and (max-width: 600px) {
   .mobile {
     font-size: 40px;
+  }
+
+  .button {
+    padding-left: 20px;
+  }
+
+  .about-text-members {
+    padding-left: 20px;
   }
 }
