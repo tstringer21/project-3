@@ -88,7 +88,7 @@ h2 {
 }
 
 .band-text {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 /* VIDEOS */
@@ -166,6 +166,7 @@ h2 {
 
   .about {
     width: 80px;
+    align-items: center;
   }
 
   .button {
