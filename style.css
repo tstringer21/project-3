@@ -40,6 +40,7 @@ h2 {
 .socials img {
   width: 20%;
   padding: 10px;
+  align-items: center;
 }
 
 /* ABOUT */
@@ -65,9 +66,14 @@ h2 {
   padding-right: 10px;
 }
 
+.artist {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .about-text-members {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 12px;
+  font-size: 17px;
   padding-top: 10px;
   padding-right: 10px;
 }
@@ -81,17 +87,85 @@ h2 {
   padding: 50px;
 }
 
-.band-about {
-  font-size: 12px;
-}
-
 .band-text {
   font-size: 30px;
+}
+
+/* VIDEOS */
+
+.video-background-color {
+  background-color: #ee6a40;
+}
+
+.videos {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.responsive-video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+/* DISCOGRAPHY */
+
+.disc-bakground-color {
+  background-color: #ffc8c8;
+}
+
+.art {
+  float: left;
+}
+
+.left {
+  padding: 20px;
+}
+
+.right {
+  padding: 20px;
+}
+
+.tracks {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.track-numbers {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+/* TOUR */
+
+.tour-bakground-color {
+  background-color: #129374;
+}
+
+.hall {
+  font-size: 80px;
+  text-align: center;
+  padding: 40px;
+}
+
+.dates {
+  font-size: 70px;
+  text-align: center;
+}
+
+.ticket {
+  text-align: center;
+  font-size: 80px;
+  color: black;
 }
 
 @media screen and (max-width: 600px) {
   .mobile {
     font-size: 40px;
+  }
+
+  .about {
+    width: 80px;
   }
 
   .button {
@@ -100,5 +174,39 @@ h2 {
 
   .about-text-members {
     padding-left: 20px;
+  }
+
+  .artist {
+    padding-right: 20px;
+  }
+
+  .disc {
+    font-size: 30px;
+  }
+  .art {
+    padding-left: 50px;
+  }
+
+  .track-numbers {
+    padding-left: 100px;
+  }
+  .tracks {
+    padding-left: 100px;
+  }
+
+  .stream {
+    padding: 20px;
+  }
+
+  .ticket {
+    font-size: 60px;
+  }
+
+  .hall {
+    font-size: 50px;
+  }
+
+  .dates {
+    font-size: 40px;
   }
 }
