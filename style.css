@@ -112,6 +112,10 @@ h2 {
   aspect-ratio: 16/9;
   width: 100%;
 }
+
+.music-videos {
+  color: black;
+}
 /* DISCOGRAPHY */
 
 .disc-bakground-color {
@@ -171,8 +175,7 @@ h2 {
   }
 
   .about {
-    width: 80px;
-    align-items: center;
+    text-align: center;
   }
 
   .button {
