@@ -43,6 +43,11 @@ h2 {
   align-items: center;
 }
 
+.logo {
+  padding: 10px;
+  padding-top: 20px;
+}
+
 /* ABOUT */
 
 .about-background-color {
@@ -62,7 +67,7 @@ h2 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-right: 10px;
 }
 
@@ -79,7 +84,8 @@ h2 {
 }
 
 .about-images {
-  padding-top: 50px;
+  padding-top: 30px;
+
   font-size: 12px;
 }
 
@@ -166,6 +172,7 @@ h2 {
 
   .about {
     width: 80px;
+    align-items: center;
   }
 
   .button {
